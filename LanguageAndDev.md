@@ -2,9 +2,9 @@ ONLY ADD WHAT'S NECESSARY. FOLLOW RULE 1 HERE TOO.
 # Python
 ## Libraries
 
-- FastAPI
-- pytest
-- Pydantic-settings    (env config)
+FastAPI
+pytest
+Pydantic-settings    (env config)
 SQLAlchemy + Alembic (if any DB — see Data Layer)
 arq                  (if any background jobs)
 httpx                (if calling external APIs)
