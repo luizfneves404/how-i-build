@@ -33,6 +33,7 @@ For frontend, for backend, for everything. Add more stuff later.
 - Backend framework and (a bit less so) frontend framework
 
 **Easy to change → experiment, find the absolute best one for your use case, even if isn't the best long-term**
+
 - Dev tooling
 - sometimes hosting/deployment (if you do it right, it's should be swappable, like CDNs and container deployment)
 
@@ -49,7 +50,7 @@ Local dev setup and tests setup as similar as possible to prod.
 
 ## 4. Keep the codebase integrated
 
-Monorepo mindset. favor full-stack commits/developers, tight integration and business rules instead of technical boundaries (like frontend vs backend). Decreases integration problems and speeds up iteration.
+Monorepo mindset. favor full-stack commits/developers, tight integration and business rules instead of technical boundaries (like frontend vs backend). Decreases integration problems and speeds up iteration. This rule also applies at a lower level, for example, inside the backend, divide first by business modules (like a users folder, messages folder, etc) and then, internally, by technical boundaries (ideally abstract away the technical details that are common to the business modules).  
 BUGS LOVE BOUNDARIES. THEY HIDE THERE AND FEAST. that ties into end to end type safety.
 
 ## 5. If you need infrastructure above simple, define it as code
