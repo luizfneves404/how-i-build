@@ -24,7 +24,7 @@ ty
 ## Libraries
 
 Vite
-- select React Compiler setup (unfortunately not able to use it with SWC since react compiler uses Babel, but that's fine)
+- pnpm create vite. Choose React with Tanstack Router preset. Select to add: Compiler, shadcn and anything else you may want.
 
 Hono
 React
