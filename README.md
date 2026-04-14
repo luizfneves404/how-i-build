@@ -51,7 +51,7 @@ Local dev setup and tests setup as similar as possible to prod.
 ## 4. Keep the codebase integrated
 
 Monorepo mindset. favor full-stack commits/developers, tight integration and business rules instead of technical boundaries (like frontend vs backend). Decreases integration problems and speeds up iteration. This rule also applies at a lower level, for example, inside the backend, divide first by business modules (like a users folder, messages folder, etc) and then, internally, by technical boundaries (ideally abstract away the technical details that are common to the business modules).  
-BUGS LOVE BOUNDARIES. THEY HIDE THERE AND FEAST. that ties into end to end type safety.
+BUGS LOVE BOUNDARIES. THEY HIDE THERE AND FEAST. that ties into the need for end to end type safety. Also, make sure to validate the entire production pipeline as early as possible: build and truly deploy a blank UI with CI/CD, basic test setup and all the necessary steps, then after that just iterate on business logic. 
 
 ## 5. If you need infrastructure above simple, define it as code
 
