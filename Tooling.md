@@ -1,4 +1,4 @@
-# Editor
+# Editor and command line
 
 **Cursor is the default.** The AI assistance ROI at this stage of development is too high to justify anything else. It's VS Code with better AI — zero switching cost if you already know VS Code.
 
@@ -11,6 +11,8 @@ Look out for Zed. It's almost worth it to switch, but plugin ecosystem keeps me 
 	- Enabling and disabling is necessary for good performance, otherwise starts lagging.
 	- Configure settings.json to have the settings of all possible extensions, even if they aren't recognized because most are disabled in the default profile. Configure by enabling the extensions on a specific workspace without altering the Default profile
 
+Claude Code? Cursor CLI? Codex? All solid.
+- Use RTK. Reduces token consumption
 
 
 # Testing
