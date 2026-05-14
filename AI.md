@@ -10,4 +10,5 @@ Don't get bogged down by the "Need". These are ideas and you should pick the bes
 
 # AI frameworks
 
-- Mastra, deployed on Cloudflare
+- Vercel AI SDK. Use in serverless, like Cloudflare Workers
+
