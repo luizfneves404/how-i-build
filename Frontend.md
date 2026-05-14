@@ -49,7 +49,11 @@ Look out for Remix v3 and Tanstack Start (when it gets to v1)
 
 # Mobile app
 
-- Vite exports to PWA (with plugin). If this is enough, go for it! Easier than native apps or react native. You can also deploy to app stores using Capacitor to wrap the PWA. If you do this, keep in mind you won't be able to use the server features (like routes and server functions) of a full stack meta framework.
+- Vite exports to PWA (with plugin). If this is enough, go for it! Easier than native apps or react native.
+- You can also deploy the web app to app stores using Capacitor.
+  - If you do this, keep in mind you won't be able to use the server features (like routes and server functions) of a full stack meta framework, so perhaps favor a decoupled frontend.
+  - use ionic framework instead of shadcn/Tanstack Router if you want to optimize for the mobile experience, but keep React
+
 - If you need true apps, think about React Native (probably with Expo) vs native languages
 
 # Desktop app

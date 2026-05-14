@@ -21,14 +21,14 @@ Look out for Elysia JS and Tanstack Start: once mature, might be the best option
 ## **Docker**
 FastAPI
 - Python, if you need it: better access to ML, data science, etc.
-- Very type safe, possible to use openapi.json to generate types for frontend, unfortunately with codegen (Rule 3)
+- Very type safe, possible to use openapi.json to generate types for frontend, though unfortunately with codegen (Rule 3)
 
 Hono
 - Benefits mentioned above
 # Deployment
 
 Best VPS provider = best performance/price
-- Oracle Always Free Tier, if you have
+- Oracle Always Free Tier, if you have. Note: VERY HARD TO ACTUALLY GET THE INSTANCES in my experience. Many 500 errors blocking me from getting access, i gave up.
 - Hetzner CX22 (€3.29/mo, 2 vCPU, 4 GB RAM) or CAX21 (ARM, more RAM per euro).
 
 Edge deployment
