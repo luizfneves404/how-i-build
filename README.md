@@ -11,6 +11,7 @@ Opinionated decision guides for technology choices. Each doc should have the bel
 - [Data Layer](./DataLayer.md) — databases, ORMs, caching, file storage, search
 - [Auth](./Auth.md) — authentication and identity management
 - [AI](./AI.md)
+- [Others](./Others.md)
 
 # Software architecture and tech choice principles
 
