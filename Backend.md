@@ -1,4 +1,4 @@
-Below each choice of tech, a brief explanation of why. 
+Below each choice of tech, a brief explanation of why.
 Consider, IN ORDER, if each option satisfies your use case. This maximizes simplicity and minimizes price early-stage. Later options cover more use cases and offer more flexibility.
 
 ## **BaaS and/or Edge**
@@ -10,7 +10,7 @@ BaaS: Supabase
 - If the app succeeds and costs spike, just self-host on best VPS provider with Dokploy (rule 6)
 
 Edge: Hono
-- Free tier of deploy providers covers most hobby/side-project traffic forever.
+- Free tier of deploy providers covers most hobby/side-project traffic forever. Wins over Supabase here.
 - If you need to move to Docker (below) to rid yourself of edge limitations, just change deployment, no code changes (Rule 2). BaaS doesn't have this option (at least not as easy)
 - Allows flexibility for other frontend clients like mobile (unlike full stack meta frameworks)
 - Hono RPC with frontend on monorepo allows e2e type safety, no codegen (Rules 3 and 4)

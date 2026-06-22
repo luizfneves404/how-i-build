@@ -1,8 +1,7 @@
 # Editor and command line
 
-**Cursor is the default.** The AI assistance ROI at this stage of development is too high to justify anything else. It's VS Code with better AI — zero switching cost if you already know VS Code.
+**Cursor and Zed.** If you don't care about performance or your computer can handle it without any struggle, go with Cursor. I've been using Zed more because of how fast it is. On my laptop, opening one Cursor window and doing many other things is much slower than in Zed. Having many Cursor windows open is a much worse experience than having many windows in Zed.
 
-Look out for Zed. It's almost worth it to switch, but plugin ecosystem keeps me in Cursor (using as CLI tools could bridge the gap).
 ## Config
 - Enable code actions on save for everything that is reasonable.
 - Have one vscode profile with your most broad/lightweight tools and enable/disable tools per project.
@@ -11,8 +10,6 @@ Look out for Zed. It's almost worth it to switch, but plugin ecosystem keeps me 
 	- Enabling and disabling is necessary for good performance, otherwise starts lagging.
 	- Configure settings.json to have the settings of all possible extensions, even if they aren't recognized because most are disabled in the default profile. Configure by enabling the extensions on a specific workspace without altering the Default profile
 
-Claude Code? Cursor CLI? Codex? All solid.
-- Use RTK. Reduces token consumption
 
 
 # Testing

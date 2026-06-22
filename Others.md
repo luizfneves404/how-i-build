@@ -13,9 +13,10 @@
 ## “I want a code-first Rust engine”
 - Bevy (Rust)
     - Great architecture, less mature tooling.
+    - Note: i had pain vibe-coding with this! Consider a typescript one
 
-## “I want a 3D browser game”
-- PlayCanvas (TypeScript)
+## "I want a 3D browser game"
+- Rapier + Three.js (TypeScript) using R3F and R3Rapier. Inside vite+react compiler project
 
 ## “I want a normal indie engine”
 - Godot (GDScript/C#)
